@@ -1,0 +1,2 @@
+class UserAdventuresController < ApplicationController
+end
