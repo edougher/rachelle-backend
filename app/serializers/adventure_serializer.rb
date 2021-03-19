@@ -1,3 +1,3 @@
 class AdventureSerializer < ActiveModel::Serializer
-  attributes :id, :title, :description, :completed, :boolean
+  attributes :id, :title, :location, :description
 end

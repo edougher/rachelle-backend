@@ -1,3 +1,3 @@
 class UserAdventureSerializer < ActiveModel::Serializer
-  attributes :id, :user_id, :integer, :adventure_id, :integer
+  attributes :id, :user_id,  :adventure_id
 end
