@@ -1,3 +1,4 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :userName, :city, :password
+  attributes :id, :userName, :city
+  has_many :adventures
 end

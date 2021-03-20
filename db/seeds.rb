@@ -12,14 +12,14 @@ Adventure.destroy_all
 UserAdventure.destroy_all
 
 
-User.create(userName: "Rachelle", city:"Chicago", password:"")
-User.create(userName: "Evans", city:"Chicago", password:"")
-User.create(userName: "Alison", city:"Chicago", password:"")
-User.create(userName: "Eric", city:"East Lansing", password:"")
-User.create(userName: "Russ", city:"Picnkney", password:"")
-User.create(userName: "Hilery", city:"Brighton", password:"")
-User.create(userName: "Heather", city:"Portland", password:"")
-User.create(userName: "Brandon", city:"Mexico City", password:"")
+User.create(userName: "Rachelle", city:"Chicago", password:"abc")
+User.create(userName: "Evans", city:"Chicago", password:"abc")
+User.create(userName: "Alison", city:"Chicago", password:"abc")
+User.create(userName: "Eric", city:"East Lansing", password:"abc")
+User.create(userName: "Russ", city:"Picnkney", password:"abc")
+User.create(userName: "Hilery", city:"Brighton", password:"abc")
+User.create(userName: "Heather", city:"Portland", password:"abc")
+User.create(userName: "Brandon", city:"Mexico City", password:"abc")
 
 
 
