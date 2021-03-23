@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
       def create 
        
-        user = User.find_by(userName: params[:userName])
+        user = User.find_or_create_by(userName: params[:userName])
 
         if user && user.authenticate(params[:password])
           payload ={ user_id: user.id }
