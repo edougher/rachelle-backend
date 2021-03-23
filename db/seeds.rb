@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+## https://medium.com/@jennyjean8675309/connect-your-react-application-to-a-rails-api-using-active-storage-part-1-e59dcacc481b
+## https://ericlondon.com/2020/02/15/rails-6-and-react-integration-with-active-storage-image-file-attachments.html
+
 
 User.destroy_all
 Adventure.destroy_all
